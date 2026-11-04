@@ -34,3 +34,51 @@ footer{background:var(--sea-dk);color:#fff;padding:1.2rem;text-align:center;marg
 
 h1,h2{color:#0d5658}a{color:#0d5658}nav a{color:#0d5658}nav a:hover,nav a[aria-current=page]{background:#147a7c;color:#fff}footer{background:#147a7c}.datebox{background:#147a7c}
 header .tag a{color:#0d5658}header .tag{color:#0d5658}
+
+/* Compact phone layout */
+@media(max-width:600px){
+html{font-size:16px}
+body{line-height:1.45}
+header{padding:.5rem .8rem;gap:.6rem;flex-wrap:nowrap}
+header img{height:64px;margin:0}
+header .name{font-size:1.1rem;line-height:1.2}
+header .tag{font-size:.85rem;margin:.1rem 0 0}
+header+nav{border-top-width:5px}
+nav ul{padding:.4rem;gap:.3rem;display:grid;grid-template-columns:1fr 1fr}
+nav a{padding:.45rem .5rem;font-size:.95rem;text-align:center;border-radius:6px}
+main{padding:.8rem}
+h1{font-size:1.5rem;margin:.3rem 0}
+h2{font-size:1.2rem;margin:.6rem 0 .3rem}
+.card{padding:.7rem .9rem;margin:.6rem 0;border-radius:10px}
+.big{font-size:1.1rem}
+.btn{padding:.5rem .9rem;margin:.2rem .2rem .2rem 0}
+.grid{gap:.6rem;grid-template-columns:1fr}
+.event{gap:.6rem;padding:.55rem 0}
+.datebox{min-width:3.6rem;padding:.25rem}
+.datebox .m{font-size:.75rem}.datebox .d{font-size:1.3rem}
+.event h3{font-size:1rem}
+th,td{padding:.35rem}
+footer{padding:.8rem;margin-top:1rem}
+}
+
+nav a.ext{background:#c9305f;color:#fff}nav a.ext:hover{background:#8f2147;color:#fff}
+@media(max-width:600px){nav a.ext{font-size:.9rem}}
+
+/* Phone refinements: compact, still large enough to read */
+@media(max-width:600px){
+html{font-size:17px}
+nav ul{display:flex;flex-wrap:wrap;gap:.3rem;padding:.35rem}
+nav li{flex:1 1 auto}
+nav a{padding:.5rem .7rem;font-size:1rem}
+nav li:has(.ext){flex:1 1 100%}
+nav a.ext{font-size:1rem}
+main{padding:.7rem .8rem}
+h1{font-size:1.45rem;line-height:1.25}
+p{margin:.45rem 0}
+.card{padding:.6rem .85rem;margin:.5rem 0}
+.card h2{margin:.1rem 0 .3rem}
+.grid{gap:.4rem}
+.big{line-height:1.35}
+.btn{padding:.5rem .9rem}
+}
+@media(max-width:600px){.grid .card{margin:0}}

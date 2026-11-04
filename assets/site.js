@@ -2,7 +2,7 @@
 const PAGES=[["index.html","Home"],["events.html","Events"],["lunch.html","Lunch"],["classes.html","Classes"],["contact.html","Contact"]];
 (function(){
   const here=location.pathname.split("/").pop()||"index.html";
-  document.getElementById("nav").innerHTML="<ul>"+PAGES.map(([h,t])=>`<li><a href="${h}"${h===here?' aria-current="page"':""}>${t}</a></li>`).join("")+"</ul>";
+  document.getElementById("nav").innerHTML="<ul>"+PAGES.map(([h,t])=>`<li><a href="${h}"${h===here?' aria-current="page"':""}>${t}</a></li>`).join("")+`<li><a class="ext" href="https://www.nhcgov.com/1191/Senior-Resource-Center" target="_blank" rel="noopener">Senior Resource Center ↗</a></li></ul>`;
 })();
 async function renderEvents(el,limit){
   try{
