@@ -1,0 +1,94 @@
+{
+  "updated": "2026-11-04T21:50:06+00:00",
+  "calendar_month": "2026-11",
+  "calendar_pdf": "https://www.nhcgov.com/DocumentCenter/View/14128/Nov-2026-CB",
+  "events": [
+    {
+      "date": "2026-11-04",
+      "time": "10:00 AM – 1:00 PM",
+      "title": "Bladder Health Presentation with UNCW Nursing Students @11, Blood Sugar & BP Screenings 10-1",
+      "location": "Katie B. Hines Senior Center",
+      "source": "https://www.nhcgov.com/DocumentCenter/View/14128/Nov-2026-CB"
+    },
+    {
+      "date": "2026-11-07",
+      "time": "7:30 AM – 11:00 AM",
+      "title": "Island Famous Pancake Breakfast ($10)",
+      "location": "Katie B. Hines Senior Center",
+      "source": "https://whatsupcb.com/venues/katie-b-hines-center/"
+    },
+    {
+      "date": "2026-11-09",
+      "time": "11:00 AM",
+      "title": "Crafts with Home Instead",
+      "location": "Katie B. Hines Senior Center",
+      "source": "https://www.nhcgov.com/DocumentCenter/View/14128/Nov-2026-CB"
+    },
+    {
+      "date": "2026-11-11",
+      "time": "",
+      "title": "CLOSED - Veteran’s Day",
+      "location": "Katie B. Hines Senior Center",
+      "source": "https://www.nhcgov.com/DocumentCenter/View/14128/Nov-2026-CB",
+      "closed": true
+    },
+    {
+      "date": "2026-11-12",
+      "time": "11:00 AM – 1:00 PM",
+      "title": "Farmers’ Market with Feast Down East",
+      "location": "Katie B. Hines Senior Center",
+      "source": "https://www.nhcgov.com/DocumentCenter/View/14128/Nov-2026-CB"
+    },
+    {
+      "date": "2026-11-13",
+      "time": "11:00 AM",
+      "title": "Cooking Demo with Paige: Overnight Oats",
+      "location": "Katie B. Hines Senior Center",
+      "source": "https://www.nhcgov.com/DocumentCenter/View/14128/Nov-2026-CB"
+    },
+    {
+      "date": "2026-11-17",
+      "time": "12:45 PM",
+      "title": "Exercise and Emotional Health Presentation with Katie Cerrone",
+      "location": "Katie B. Hines Senior Center",
+      "source": "https://www.nhcgov.com/DocumentCenter/View/14128/Nov-2026-CB"
+    },
+    {
+      "date": "2026-11-18",
+      "time": "10:30 AM",
+      "title": "Carolina Beach Fire Department, Meet the “C Shift” Team",
+      "location": "Katie B. Hines Senior Center",
+      "source": "https://www.nhcgov.com/DocumentCenter/View/14128/Nov-2026-CB"
+    },
+    {
+      "date": "2026-11-20",
+      "time": "10:45 AM – 12:15 PM",
+      "title": "Liberty Home Care & Hospice Tabling Information",
+      "location": "Katie B. Hines Senior Center",
+      "source": "https://www.nhcgov.com/DocumentCenter/View/14128/Nov-2026-CB"
+    },
+    {
+      "date": "2026-11-25",
+      "time": "12:00 PM",
+      "title": "Fancy Lunch: Turkey and Gravy",
+      "location": "Katie B. Hines Senior Center",
+      "source": "https://www.nhcgov.com/DocumentCenter/View/14128/Nov-2026-CB"
+    },
+    {
+      "date": "2026-11-26",
+      "time": "",
+      "title": "CLOSED - Thanksgiving",
+      "location": "Katie B. Hines Senior Center",
+      "source": "https://www.nhcgov.com/DocumentCenter/View/14128/Nov-2026-CB",
+      "end_date": "2026-11-27",
+      "closed": true
+    },
+    {
+      "date": "2026-12-05",
+      "time": "7:30 AM – 11:00 AM",
+      "title": "Island Famous Pancake Breakfast ($10)",
+      "location": "Katie B. Hines Senior Center",
+      "source": "https://whatsupcb.com/venues/katie-b-hines-center/"
+    }
+  ]
+}

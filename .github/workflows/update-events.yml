@@ -1,0 +1,27 @@
+name: Update events
+on:
+  schedule:
+    - cron: "15 10 * * *"   # every day, about 6 AM Eastern
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PDF reader
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Fetch county events
+        run: python3 scripts/update_events.py
+      - name: Save changes
+        run: |
+          git config user.name "events-bot"
+          git config user.email "events-bot@users.noreply.github.com"
+          git add events.json
+          # Only commit when the events (not just the timestamp) changed
+          if git diff --cached -U0 events.json | grep -E '^[+-] ' | grep -vq '"updated"'; then
+            git commit -m "Update events from New Hanover County" && git push
+          else
+            echo "No event changes"
+          fi
